@@ -1,0 +1,641 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.4.6",
+  "config": {
+    "steps": 100000,
+    "warmup": 20000,
+    "capacities": [
+      90.0,
+      45.0
+    ],
+    "queue_factor": 2.0,
+    "initial_cwnd": [
+      1,
+      1,
+      1
+    ],
+    "adaptation_block": 500,
+    "adaptation_gain": 0.5,
+    "p_bounds": [
+      1e-05,
+      0.5
+    ]
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "modes": [
+    "A",
+    "B",
+    "C"
+  ],
+  "pf": [
+    19.019237886466843,
+    70.98076211353316,
+    25.980762113533157
+  ],
+  "prices": [
+    0.014088324360345808,
+    0.03849001794597506
+  ],
+  "route_prices": [
+    0.052578342306320865,
+    0.014088324360345808,
+    0.03849001794597506
+  ],
+  "base_probabilities": [
+    0.09515092844006932,
+    0.027404482250934604,
+    0.07147768141142523
+  ],
+  "utility_at_pf": 10.46521621686874,
+  "tests": {
+    "scheduler_examples": "passed",
+    "serial_route_and_r2_loss": "passed",
+    "A_loss_only_feedback": "passed",
+    "exact_repeatability_A_B_C": "passed"
+  },
+  "runs": [
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 3.6661944591287465e-09,
+      "mode": "A",
+      "seed": 0,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 2.695998091439833e-08,
+      "mode": "B",
+      "seed": 0,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.5080651394328015e-08,
+      "mode": "B",
+      "seed": 1,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 2.549813871155493e-08,
+      "mode": "B",
+      "seed": 2,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 2.708378588067717e-08,
+      "mode": "B",
+      "seed": 3,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.8986533234510716e-08,
+      "mode": "B",
+      "seed": 4,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 9.862645811153925e-09,
+      "mode": "B",
+      "seed": 5,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.6667485169818974e-08,
+      "mode": "B",
+      "seed": 6,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 9.634845810069237e-09,
+      "mode": "B",
+      "seed": 7,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 2.0410737988640903e-08,
+      "mode": "B",
+      "seed": 8,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.53058543617135e-08,
+      "mode": "B",
+      "seed": 9,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.3547719390771817e-08,
+      "mode": "C",
+      "seed": 0,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.2534286497611902e-08,
+      "mode": "C",
+      "seed": 1,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 9.516952559351921e-09,
+      "mode": "C",
+      "seed": 2,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.2533689641713863e-08,
+      "mode": "C",
+      "seed": 3,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.6763806343078613e-08,
+      "mode": "C",
+      "seed": 4,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.536574245619704e-08,
+      "mode": "C",
+      "seed": 5,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 7.450580596923828e-09,
+      "mode": "C",
+      "seed": 6,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.7192991919046108e-08,
+      "mode": "C",
+      "seed": 7,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 1.5366822481155396e-08,
+      "mode": "C",
+      "seed": 8,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    },
+    {
+      "slots_checked": 100000,
+      "max_conservation_residual": 8.771252169026411e-09,
+      "mode": "C",
+      "seed": 9,
+      "config": {
+        "steps": 100000,
+        "warmup": 20000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1,
+          1,
+          1
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      },
+      "scenario": "main"
+    }
+  ],
+  "source_sha256": {
+    "aimd_sim.py": "fc5f6c1a77dd68b1ab06fb301fac412ed49638734887cb5c966748f27a6093ee",
+    "run_experiments.py": "4d622a049caf131e38b96e36bcf9a0ec5a2d9f9b87fcfecf522e757843c2cdaa"
+  },
+  "elapsed_seconds": 22.851528599996527
+}

@@ -1,0 +1,7 @@
+{
+  "stored_trace_A_capacity_OR_AIMD": "passed",
+  "stored_trace_B_capacity_OR_AIMD": "passed",
+  "stored_trace_C_capacity_OR_AIMD": "passed",
+  "C_adapting_path_exact_reproducibility": "passed",
+  "C_probability_update_max_abs_error": 4.163336342344337e-17
+}

@@ -1,0 +1,34 @@
+{
+  "main_runs": 21,
+  "main_steps_per_run": 100000,
+  "warmup": 20000,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "main_summary_max_absolute_difference": 0.0,
+  "main_per_seed_max_absolute_difference": 0.0,
+  "representative_traces_byte_identical": {
+    "A": true,
+    "B": true,
+    "C": true
+  },
+  "additional_C_300k_seed0_max_absolute_difference": 0.0,
+  "independent_audit": {
+    "stored_trace_A_capacity_OR_AIMD": "passed",
+    "stored_trace_B_capacity_OR_AIMD": "passed",
+    "stored_trace_C_capacity_OR_AIMD": "passed",
+    "C_adapting_path_exact_reproducibility": "passed",
+    "C_probability_update_max_abs_error": 4.163336342344337e-17
+  },
+  "source_and_readme_extracted_to_new_folder_before_execution": true,
+  "report_pdf_included": false
+}

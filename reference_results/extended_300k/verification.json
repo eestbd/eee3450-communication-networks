@@ -1,0 +1,265 @@
+{
+  "runs": [
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 5.9410226072031946e-08,
+      "mode": "C",
+      "seed": 0,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 8.568167686462402e-08,
+      "mode": "C",
+      "seed": 1,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 9.69288151964065e-08,
+      "mode": "C",
+      "seed": 2,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 5.669555491749634e-08,
+      "mode": "C",
+      "seed": 3,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 1.7226992099494964e-07,
+      "mode": "C",
+      "seed": 4,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 1.2281137173886236e-07,
+      "mode": "C",
+      "seed": 5,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 7.951143743412104e-08,
+      "mode": "C",
+      "seed": 6,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 8.050628252931347e-08,
+      "mode": "C",
+      "seed": 7,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 5.914688472330454e-08,
+      "mode": "C",
+      "seed": 8,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    },
+    {
+      "slots_checked": 300000,
+      "max_conservation_residual": 6.895125181927142e-08,
+      "mode": "C",
+      "seed": 9,
+      "config": {
+        "steps": 300000,
+        "warmup": 100000,
+        "capacities": [
+          90.0,
+          45.0
+        ],
+        "queue_factor": 2.0,
+        "initial_cwnd": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "adaptation_block": 500,
+        "adaptation_gain": 0.5,
+        "p_bounds": [
+          1e-05,
+          0.5
+        ]
+      }
+    }
+  ],
+  "elapsed_seconds": 23.487628299997596
+}

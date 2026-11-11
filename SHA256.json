@@ -1,0 +1,22 @@
+{
+  "aimd_sim.py": "fc5f6c1a77dd68b1ab06fb301fac412ed49638734887cb5c966748f27a6093ee",
+  "audit_results.py": "7ef68cb83273638f597a93eb743a1a8f096a0dc88e080fdf13f1cec74ec2cba3",
+  "check_stability.py": "7d882d5b22db4c2dade10feaca744b71d38daf095cd255a239a960449870e29e",
+  "figures/fig1_cwnd.png": "dbcac8de67667aaa58ca87625915221aa591fe107ae96ac1c9c96ef4384c915f",
+  "figures/fig2_throughput.png": "4407ab5d9c9369e11118071404122fcdd6b8eeb4ee52c037836e31fa3e7717ab",
+  "plot_results.py": "7b4f48c536c4e08e670ac5e3492ce3ec0631a0dd74da9885e287426063d7ee38",
+  "plot_stability.py": "6697f50d8fb482432761fefc3decb8592c0f5bff145538021ae9de4335010532",
+  "README.txt": "ce6cab77a404a312c4f7b9e6fc69ab2473a70893cd6eac187d257c871e98acfa",
+  "reference_results/extended_300k/per_seed.csv": "04fd006c5c100ab070c668d503a359b959b291ac9a5f9e60d1752847f85f627e",
+  "reference_results/extended_300k/stability_blocks.csv": "5b325049f52c828fb1025c2669dd96a349c483a8382223621e82f5e5f048d433",
+  "reference_results/extended_300k/summary.csv": "37b2c1b979d68391ec53afb342e151fc58b413745d32a1937663e6b12b365a4a",
+  "reference_results/extended_300k/verification.json": "865a5a330de07c6778439441e030c0a6cbd2c5e4865338f80473b44210c7b2e4",
+  "reference_results/main_100k/independent_audit.json": "8aa12821f498239f1a66e2a51149346570942dcf455a5d4a519ad4abc2c55867",
+  "reference_results/main_100k/per_seed.csv": "3ec68b287bf80fa88218790549de1e1941b5adcef570fcfc8309e8c3e74cb30d",
+  "reference_results/main_100k/stability_blocks.csv": "a3bf8eea4f99ee40f8ade1373811f138f34f6d79b85c77ef133a10259f62ec3e",
+  "reference_results/main_100k/summary.csv": "6b5f219ea8e2497efc49d0f505bd81070d48a0c54639d71c3db676cb5fda2283",
+  "reference_results/main_100k/verification.json": "3d5fecaec967a2d6855059480d9839e8c1df8b03ae03c369c01f4c918bc3f86b",
+  "REPRODUCTION_CHECK.json": "86b669f9d6c98e96b6bedb249c5fc593a77c7ec67f2cceb3812ec598c313a7db",
+  "requirements.txt": "7f23be70c09a55aa5d8fae7a4ae2a74cd6d50e19e23ace52f2a6437ac078ce5a",
+  "run_experiments.py": "4d622a049caf131e38b96e36bcf9a0ec5a2d9f9b87fcfecf522e757843c2cdaa"
+}
